@@ -11,7 +11,7 @@
 %>
 <html>
 <head>
-    <title>龙果支付收银台</title>
+    <title>超仪支付收银台</title>
     <link href="${path}pay_files/pay.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -23,7 +23,7 @@
             <div class="lg_txt">| 收银台</div>
         </div>
         <div class="fr tip_panel">
-            <div class="txt">欢迎使用龙果支付付款</div>
+            <div class="txt">欢迎使用超仪支付付款</div>
             <a href="">常见问题</a>
         </div>
     </div>
@@ -46,7 +46,7 @@
                     <label>
                         <a href="${path}scanPay/toPay/${payGateWayPageShowVo.merchantOrderNo}/${payWay.key}/${payGateWayPageShowVo.payKey}" style="font-size: 30px">
                             <c:if test="${payWay.key == 'WEIXIN'}">
-                                <img src="${path}images/logo2.png" alt="${payWay.value.desc}" />
+                                <img src="${path}images/logo.png2" alt="${payWay.value.desc}" />
                             </c:if>
                             <c:if test="${payWay.key == 'ALIPAY'}">
                                 <img src="${path}images/logo.png" alt="${payWay.value.desc}" />
@@ -69,8 +69,8 @@
         <ul class="con-content">
         </ul>
     </div>
-    <div class="copyright">Copyright © 2015-2016 广州市领课网络科技有限公司版权所有</div>
-    <p class="yue"><a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16009964号</a></p>
+    <div class="copyright">Copyright © 2015-2016 浙江超仪电子技术股份有限公司版权所有</div>
+    <p class="yue"><a href="http://www.joymeter.com/" target="_blank">浙ICP备xxxxxxxx号</a></p>
 </div>
 
 </body>

@@ -9,7 +9,7 @@
 %>
 <html>
 <head>
-    <title>龙果支付</title>
+    <title>超仪支付</title>
     <script type="text/javascript" src="${path}js/jquery-1.7.2.min.js"></script>
     <script type="text/javascript" src="${path}js/jquery.qrcode.min.js"></script>
     <link href="${path}/pay_files/pay.css" rel="stylesheet" type="text/css">
@@ -82,7 +82,7 @@
             <div class="lg_txt">| 收银台</div>
         </div>
         <div class="fr tip_panel">
-            <div class="txt">欢迎使用龙果支付付款</div>
+            <div class="txt">欢迎使用超仪支付付款</div>
             <a href="">常见问题</a>
         </div>
     </div>
@@ -124,8 +124,8 @@
         <ul class="con-content">
         </ul>
     </div>
-    <div class="copyright">Copyright © 2015-2016 广州市领课网络科技有限公司版权所有</div>
-    <p class="yue"><a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备16009964号</a></p>
+    <div class="copyright">Copyright © 2015-2016 浙江超仪电子技术股份有限公司版权所有</div>
+    <p class="yue"><a href="http://www.joymeter.com/" target="_blank">粤ICP备xxxxxxxx号</a></p>
 </div>
 
   <script type="text/javascript">
