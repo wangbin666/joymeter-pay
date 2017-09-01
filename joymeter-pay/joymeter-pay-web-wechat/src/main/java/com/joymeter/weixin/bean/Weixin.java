@@ -1,14 +1,14 @@
 package com.joymeter.weixin.bean;
 
 public class Weixin {
-	   
-    public static final String token = "08f028ba6df044239f3db275165d161c";
-    public static final String appId = "wxa8c9e5fe21169ce9";
-    public static final String appSecret = "ada4a0169ee884000d9fc815f929fe1f";
-    public static final String apiKey = "ada4a0169ee884000d9fc815f929fe1f";
-    public static final String encodingAESKey="fvW4XJJTVeV1RN7LAjBK3PdAGrSoDFy3F5cPH053cal";
+	
+    public static final String token = "";//微信公共号的token
+    public static final String appId = "";   //appid需要去获取
+    public static final String appSecret = "";//需要去微信获取
+    public static final String apiKey = "";//需要去微信获取
+    public static final String encodingAESKey="";//需要去微信获取
     public static final String toName = "";
-    public static final String mchId="1235528802";
+    public static final String mchId="";//微信商户id
     
 	//1)消息文本 text
 	public static final String TEXT="text";

@@ -122,10 +122,5 @@ public class PayServlet  {
 		return msg;
 		
 	}
-	
-	@RequestMapping("/test")
-	public void test(HttpServletRequest req,HttpServletResponse resp){
-	System.out.println("1234566768765435675432456432");
-	}
 
 }

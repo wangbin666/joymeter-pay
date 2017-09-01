@@ -26,15 +26,14 @@ public class MyConfig implements WXPayConfig{
     }
 
     public String getAppID() {
-        return Weixin.appId;  // "wxa8c9e5fe21169ce9";
+        return Weixin.appId;  
     }
 
     public String getMchID() {
-        return Weixin.mchId;   //1235528802
-    }
+        return Weixin.mchId;       }
 
     public String getKey() {
-        return Weixin.apiKey;//ada4a0169ee884000d9fc815f929fe1f
+        return Weixin.apiKey;
     }
 
     public InputStream getCertStream() {

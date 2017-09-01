@@ -2,7 +2,7 @@ package com.joymeter.accessToken.util;
 
 
 
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Component;
 
 import com.joymeter.accessToken.bean.AccessToken;
@@ -18,14 +18,10 @@ public class AccessTokenUtil {
 	 * @param appScret	微信公众号凭证秘钥
 	 * @return
 	 */
-	//公司微信
-//	public  String appID = "wxa8c9e5fe21169ce9";
-//	public  String appScret = "ada4a0169ee884000d9fc815f929fe1f";
-	@Autowired
+
 	private AccessToken accessToken;
-	//测试微信公共号
-//	public String appID="wx457eb0bd25d7d9ac";
-//	public String appScret="f7e7863924093a48c0a0a9f59c1da07a";
+
+
 	   
 	
 	public  AccessToken getAccessToken() {

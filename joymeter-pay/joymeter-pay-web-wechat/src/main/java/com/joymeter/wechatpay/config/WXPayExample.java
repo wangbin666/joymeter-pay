@@ -7,7 +7,7 @@ import com.github.wxpay.sdk.WXPay;
 
 public class WXPayExample {
     /**
-     * 统一下单
+     * 统一下单demo此项目独立时用到的下单接口
      * @param openid
      * @param money
      * @return
